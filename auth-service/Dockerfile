@@ -17,7 +17,7 @@ COPY . .
 RUN npx prisma generate
 
 # Exponemos el puerto
-EXPOSE 4000
+EXPOSE 5000
 
 # Comando para iniciar el servicio
 CMD ["node", "server.js"]
